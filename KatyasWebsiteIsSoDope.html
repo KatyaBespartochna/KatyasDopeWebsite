@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Katya's Website is so Dope</title>
+	<link href="KatyasWebsiteIsSoDope.css" rel="stylesheet" />
+	<link href='https://fonts.googleapis.com/css?family=Mountains of Christmas' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Julee' rel='stylesheet'>
+	</head>
+	
+	<h5>This is just like creating a document in word... </h5>
+	
+	
+	<h1 class="classyfont"> Welcome to Katya's World </h1> <!-- blue heading -->
+	
+	<p>Thought of the day.... </p>
+	<p> "wow,this font.."<p>
+	
+</head>
+
+
+
+<body class="classierfont">
+
+<h2>Let the Fun(ny) Begin...</h2>
+<br> 
+
+<section>
+  <img class="myPictures" src="BeardKatya.jpg"
+  style="width:35%">
+  <img class="myPictures" src="portrait.jpg" 
+  style="width:35%">
+  
+
+  
+  <img class="myPictures" src="beingteen.jpg"
+  style="width:35%">
+  <!--add more images -->
+</section>
+
+
+
+
+
+<script type="text/javascript">
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 1; //starts at portrait since it's the first image
+slideShow();
+
+function slideShow() {
+    var i;
+    var x = document.getElementsByClassName("myPictures");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(slideShow, 1000);
+}
+</script>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-blue w3-xlarge">
+
+
+<p>Here are a few facts about me</p>
+
+<li> I'm a Information Systems Major </li>
+<li> I like doodling </li>
+<li> This is an old photo of me,<br>  I wish I had a professional photographer </li>
+<li> I like to look at coding as a form of art </li>
+<li> This the most organized page I've ever made on Notepad++ </li>
+
+<br><br>
+
+
+<p> I'm guessing that you came here to see my credentials.<br> Well, here they are: 
+<br> </p>
+
+<a href="https://www.linkedin.com/in/katya-bespartochna-323829126">Linkdin:The Original Link</a> <br>
+<a href="https://www.facebook.com/katya.bespartochna.18">Personal Facebook</a>
+
+
+
+<br> <br>
+
+ <p>Goals/Ideas For the Website </p>
+<ol class="orderedlist">
+	<li>Create buttons to click for links </li>
+	<li> Create a box over the header </li> 
+	<li> put something on the side the website's image </li>
+</ol>
+
+
+
+
+
+</body>
+</html>
